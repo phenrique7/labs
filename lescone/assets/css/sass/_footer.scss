@@ -1,0 +1,23 @@
+footer {
+  padding: 20px 0;
+  background: $gray-color;
+  @include box-shadow(0 0 0 10px $gray-color);
+  p {
+    color: $light-beige-color;
+    @include device(small) {
+      text-align: center;
+    }
+  }
+  [class^='grid-'] {
+    &:last-child {
+      text-align: right;
+      @include device(small) {
+        margin-top: 10px;
+        text-align: center;
+      }
+      a {
+        display: inline-block;
+      }
+    }
+  }
+}

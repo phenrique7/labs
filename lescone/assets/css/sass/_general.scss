@@ -1,0 +1,36 @@
+body {
+  background: $light-beige-color;
+  border: 10px solid $medium-beige-color;
+  color: $gray-color;
+  @include device(small) {
+    border: none;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  @include font-type-1(18);
+}
+
+.title {
+  @include font-type-1(18);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  @include device(small) {
+    margin-bottom: 40px;
+  }
+  &::after {
+    content: '';
+    display: block;
+    float: right;
+    width: 75%;
+    height: 2px;
+    margin-top: 15px;
+    background: $gray-color;
+  }
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Le Scone</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Le Scone - Restaurante">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|PT+Mono" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
+</head>
+<body>
+  <main class="container intro">
+    <div class="row">
+      <div class="grid-5">
+        <img class="logo" src="assets/img/lescone.png" alt="Le Scone">
+        <div class="info-intro">
+          <p>
+            De Seg. à Sab. <span class="open"></span>
+            <br>
+            das 07:00h às 18:00h
+          </p>
+          <p>
+            Praia de Botafogo, 300
+            <br>
+            Rio de Janeiro - RJ
+          </p>
+        </div>
+        <p class="phone-intro">
+          <span>+55 021 2412-3333</span>
+        </p>
+      </div>
+      <div class="grid-7">
+        <img class="photo-intro" src="assets/img/foto.png" alt="Le Scone Photo" />
+      </div>
+    </div>
+  </main>
+  <section class="container menu">
+    <div class="row">
+      <h1 class="grid-4 title">Menu</h1>
+      <div class="grid-7 offset-1">
+        <div class="item-menu">
+          <div class="row-child">
+            <div class="grid-6">
+              <h2>Entradas</h2>
+              <ul>
+                <li><span>R$1,70</span> Ovos Mexidos</li>
+                <li><span>R$2,80</span> Scones de Frutas</li>
+                <li><span>R$3,20</span> Joelho de Queijo</li>
+                <li><span>R$4,10</span> Presunto Cozido</li>
+                <li><span>R$3,35</span> Coxinha de Frango</li>
+              </ul>
+            </div>
+            <div class="grid-6">
+              <img src="assets/img/prato-1.png" alt="Le Scone Plate 1">
+            </div>
+          </div>
+        </div>
+        <div class="item-menu">
+          <div class="row-child">
+            <div class="grid-6">
+              <h2>Pratos Principais</h2>
+              <ul>
+                <li><span>R$11,70</span> Penne com Queijo</li>
+                <li><span>R$12,10</span> Feijoada</li>
+                <li><span>R$22,44</span> Costela ao Molho</li>
+                <li><span>R$14,10</span> Medalhão de Frango</li>
+                <li><span>R$18,45</span> Fricassê de Frango</li>
+              </ul>
+            </div>
+            <div class="grid-6">
+              <img src="assets/img/prato-2.png" alt="Le Scone Plate 2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container contact">
+    <div class="row">
+      <h1 class="grid-4 title">Contato</h1>
+      <div class="grid-7 offset-1">
+        <form id="lescone-form">
+          <label for="name">Nome</label>
+          <input type="text" id="name" required>
+          <div class="row-child">
+            <div class="grid-7">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" required/>
+            </div>
+            <div class="grid-5">
+              <label for="phone">Telefone</label>
+              <input type="text" id="phone" />
+            </div>
+          </div>
+          <label for="message">Mensagem</label>
+          <textarea name="message" id="message" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        <div class="contact-info">
+          <p>contato@lescone.com ////</p>
+          <p>+55 021 2412-3333 ////</p>
+        </div>
+        <a href="https://www.google.com/maps" class="contact-map" target="_blank">
+          <img src="assets/img/map.png" alt="How to get to Le Scone">
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="grid-10">
+          <p>Le Scone © 1989 - <span class="current-year"></span>. Alguns direitos reservados.</p>
+        </div>
+        <div class="grid-2">
+          <a href="#">
+            <img src="assets/img/lescone-icone.png" alt="Le Scone Icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+
+    var today = new Date();
+    var year = today.getFullYear();
+
+    document.querySelector('.current-year').innerHTML = year;
+
+    document
+      .getElementById('lescone-form')
+      .addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        alert("This form doesn't work. It's just for presentation.");
+      });
+
+  </script>
+</body>
+</html>

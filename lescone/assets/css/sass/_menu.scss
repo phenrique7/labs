@@ -1,0 +1,53 @@
+.menu {
+  margin-top: 120px;
+  @include device(small) {
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+}
+
+.item-menu {
+  margin-bottom: 60px;
+  h2 {
+    @include font-type-2(24);
+    margin-bottom: 1em;
+  }
+  li {
+    @include font-type-1(18);
+    line-height: em(35, 18);
+    @include device(toosmall) {
+      font-size: 3.5vw;
+    }
+    span {
+      font-family: $font-aref;
+      color: $dark-beige-color;
+      display: inline-block;
+      width: 70px;
+      text-align: right;
+      margin-left: -80px;
+      @include device(small) {
+        margin-left: 0;
+        width: auto;
+      }
+    }
+  }
+  img {
+    border-radius: 50%;
+    border: 10px solid $medium-beige-color;
+    @include device(small) {
+      width: 120px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .row-child {
+    [class^='grid-']:first-child {
+      flex: 2;
+    }
+  }
+  &:last-child {
+    @include device(small) {
+      margin-bottom: 0;
+    }
+  }
+}

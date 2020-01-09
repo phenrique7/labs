@@ -1,0 +1,41 @@
+/* Colors */
+
+$light-beige-color: #edece4;
+$medium-beige-color: #cbc6b9;
+$dark-beige-color: #988c77;
+$gray-color: #2a2426;
+$green-color: #1ab912;
+
+/* Fonts */
+
+$font-mono: 'PT Mono', monospace;
+$font-aref: 'Aref Ruqaa', serif;
+
+@function em($pixel, $context: 16) {
+  @return $pixel / $context + em;
+}
+
+@mixin font-type-1($size) {
+  font-family: $font-mono;
+  @if ($size == 18) {
+    font-size: em(18);
+    line-height: em(30, 18);
+  }
+}
+
+@mixin font-type-2($size) {
+  font-family: $font-aref;
+  @if ($size == 18) {
+    font-size: em(18);
+    line-height: em(30, 18);
+  } @else if ($size == 24) {
+    font-size: em(24);
+    line-height: em(30, 24);
+  }
+}
+
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}

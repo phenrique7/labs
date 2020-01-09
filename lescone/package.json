@@ -1,0 +1,36 @@
+{
+  "name": "lab-lescone",
+  "version": "1.0.0",
+  "description": "Simple-page website design of a fictional restaurant.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier-watch": "onchange '**/*.scss' -- prettier --write --single-quote {{changed}}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phenrique7/lab-lescone.git"
+  },
+  "author": "Paulo Henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phenrique7/lab-lescone/issues"
+  },
+  "homepage": "https://github.com/phenrique7/lab-lescone#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.7",
+    "gulp": "4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.10.0",
+    "prettier": "1.15.3"
+  },
+  "postcss": {
+    "parser": false,
+    "map": false,
+    "plugins": {
+      "cssnano": {}
+    }
+  }
+}
