@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Vanilla Combobox</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico in the root directory -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<div id="root">
+  <div class="Wrapper">
+    <div class="SearchBar">
+      <div class="SearchBar-Container">
+        <div class="SearchBar-IconWrapper">
+          <svg
+            class="SearchBar-EmbedIcon"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+              stroke="#4A5568"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <label for="search-input"></label>
+        <input
+          id="search-input"
+          type="text"
+          class="SearchBar-Input"
+          placeholder="Digite alguma coisa..."
+        />
+      </div>
+      <div class="SearchBar-InputScaled"></div>
+    </div>
+  </div>
+</div>
+<script src="./js/main.js"></script>
+</body>
+
+</html>
