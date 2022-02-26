@@ -1,0 +1,220 @@
+$m-0: 0;
+$m-1: 0.25rem;
+$m-2: 0.5rem;
+$m-3: 0.75rem;
+$m-4: 1rem;
+$m-5: 1.25rem;
+$m-6: 1.5rem;
+$m-8: 2rem;
+$m-10: 2.5rem;
+$m-12: 3rem;
+$m-16: 4rem;
+$m-20: 5rem;
+$m-24: 6rem;
+$m-32: 8rem;
+$m-40: 10rem;
+$m-48: 12rem;
+$m-56: 14rem;
+$m-64: 16rem;
+$m-auto: auto;
+$m-px: 1px;
+
+@mixin mx-0 {
+  margin-left: $m-0;
+  margin-right: $m-0;
+}
+
+@mixin mx-1 {
+  margin-left: $m-1;
+  margin-right: $m-1;
+}
+
+@mixin mx-2 {
+  margin-left: $m-2;
+  margin-right: $m-2;
+}
+
+@mixin mx-3 {
+  margin-left: $m-3;
+  margin-right: $m-3;
+}
+
+@mixin mx-4 {
+  margin-left: $m-4;
+  margin-right: $m-4;
+}
+
+@mixin mx-5 {
+  margin-left: $m-5;
+  margin-right: $m-5;
+}
+
+@mixin mx-6 {
+  margin-left: $m-6;
+  margin-right: $m-6;
+}
+
+@mixin mx-8 {
+  margin-left: $m-8;
+  margin-right: $m-8;
+}
+
+@mixin mx-10 {
+  margin-left: $m-10;
+  margin-right: $m-10;
+}
+
+@mixin mx-12 {
+  margin-left: $m-12;
+  margin-right: $m-12;
+}
+
+@mixin mx-16 {
+  margin-left: $m-16;
+  margin-right: $m-16;
+}
+
+@mixin mx-20 {
+  margin-left: $m-20;
+  margin-right: $m-20;
+}
+
+@mixin mx-24 {
+  margin-left: $m-24;
+  margin-right: $m-24;
+}
+
+@mixin mx-32 {
+  margin-left: $m-32;
+  margin-right: $m-32;
+}
+
+@mixin mx-40 {
+  margin-left: $m-40;
+  margin-right: $m-40;
+}
+
+@mixin mx-48 {
+  margin-left: $m-48;
+  margin-right: $m-48;
+}
+
+@mixin mx-56 {
+  margin-left: $m-56;
+  margin-right: $m-56;
+}
+
+@mixin mx-64 {
+  margin-left: $m-64;
+  margin-right: $m-64;
+}
+
+@mixin mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin mx-px {
+  margin-left: $m-px;
+  margin-right: $m-px;
+}
+
+@mixin my-0 {
+  margin-top: $m-0;
+  margin-bottom: $m-0;
+}
+
+@mixin my-1 {
+  margin-top: $m-1;
+  margin-bottom: $m-1;
+}
+
+@mixin my-2 {
+  margin-top: $m-2;
+  margin-bottom: $m-2;
+}
+
+@mixin my-3 {
+  margin-top: $m-3;
+  margin-bottom: $m-3;
+}
+
+@mixin my-4 {
+  margin-top: $m-4;
+  margin-bottom: $m-4;
+}
+
+@mixin my-5 {
+  margin-top: $m-5;
+  margin-bottom: $m-5;
+}
+
+@mixin my-6 {
+  margin-top: $m-6;
+  margin-bottom: $m-6;
+}
+
+@mixin my-8 {
+  margin-top: $m-8;
+  margin-bottom: $m-8;
+}
+
+@mixin my-10 {
+  margin-top: $m-10;
+  margin-bottom: $m-10;
+}
+
+@mixin my-12 {
+  margin-top: $m-12;
+  margin-bottom: $m-12;
+}
+
+@mixin my-16 {
+  margin-top: $m-16;
+  margin-bottom: $m-16;
+}
+
+@mixin my-20 {
+  margin-top: $m-20;
+  margin-bottom: $m-20;
+}
+
+@mixin my-24 {
+  margin-top: $m-24;
+  margin-bottom: $m-24;
+}
+
+@mixin my-32 {
+  margin-top: $m-32;
+  margin-bottom: $m-32;
+}
+
+@mixin my-40 {
+  margin-top: $m-40;
+  margin-bottom: $m-40;
+}
+
+@mixin my-48 {
+  margin-top: $m-48;
+  margin-bottom: $m-48;
+}
+
+@mixin my-56 {
+  margin-top: $m-56;
+  margin-bottom: $m-56;
+}
+
+@mixin my-64 {
+  margin-top: $m-64;
+  margin-bottom: $m-64;
+}
+
+@mixin my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@mixin my-px {
+  margin-top: $m-px;
+  margin-bottom: $m-px;
+}

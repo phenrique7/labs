@@ -1,0 +1,33 @@
+$xs-screen: 320px;
+$sm-screen: 640px;
+$md-screen: 768px;
+$lg-screen: 1024px;
+$xl-screen: 1280px;
+
+@mixin breakpoint($screen) {
+  @if ($screen == xs) {
+    @media screen and (max-width: #{$xs-screen}) {
+      @content;
+    }
+  }
+  @else if ($screen == sm) {
+    @media screen and (max-width: #{$sm-screen}) {
+      @content;
+    }
+  }
+  @else if ($screen == md) {
+    @media screen and (max-width: #{$md-screen}) {
+      @content;
+    }
+  }
+  @else if($screen == lg) {
+    @media screen and (max-width: #{$lg-screen}) {
+      @content;
+    }
+  }
+  @else if($screen == xl) {
+    @media screen and (max-width: #{$xl-screen}) {
+      @content;
+    }
+  }
+}

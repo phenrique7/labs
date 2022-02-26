@@ -1,0 +1,134 @@
+@import "font-weight";
+@import "line-weight";
+@import "font-size";
+@import "margin";
+@import "width";
+@import "padding";
+@import "background-color";
+@import "box-shadow";
+@import "border-radius";
+@import "border-width";
+@import "grid";
+@import "theme";
+
+html, body, main {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background: $light-gray;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .container {
+    max-width: $max-w-screen-lg;
+    margin: $m-0 $m-auto;
+    padding: $p-3;
+  }
+}
+
+.presentation {
+  margin: $m-10 $m-auto;
+  max-width: $max-w-lg;
+  padding: $p-3;
+
+  .presentation__title {
+    font-size: $text-base + $text-xs;
+    font-weight: $font-thin;
+    line-height: $leading-snug;
+    text-align: center;
+    color: $dark-blue;
+
+    b {
+      font-weight: $font-semibold;
+    }
+
+    @media (min-width: $max-w-screen-lg) {
+      font-size: $text-3xl;
+    }
+  }
+
+  .presentation__subtitle {
+    color: $grayish-blue;
+    font-size: $text-base;
+    font-weight: $font-normal;
+    line-height: $leading-6;
+    text-align: center;
+    margin-top: $m-4;
+  }
+}
+
+.features {
+  margin-top: -$m-3;
+
+  > div:nth-child(2n + 1) {
+    align-self: center;
+  }
+}
+
+.card-feature {
+  background: $bg-white;
+  padding: $p-6;
+  width: $w-full;
+  box-shadow: $shadow-xl;
+  border-radius: 0.28rem;
+
+  &.card-feature--supervisor {
+    border-top: $border-4 solid $primary-cyan;
+  }
+
+  &.card-feature--team-builder {
+    border-top: $border-4 solid $primary-red;
+    margin-bottom: $m-6;
+  }
+
+  &.card-feature--karma {
+    border-top: $border-4 solid $primary-orange;
+  }
+
+  &.card-feature--calculator {
+    border-top: $border-4 solid $primary-blue;
+  }
+
+  .card-feature__feature {
+    color: $dark-blue;
+    font-size: $text-lg;
+    line-height: $leading-none;
+    font-weight: $font-semibold;
+  }
+
+  .card-feature__text {
+    margin-top: $m-3;
+    color: $grayish-blue;
+    font-size: $text-sm;
+    font-weight: $font-normal;
+    line-height: $leading-6;
+  }
+
+  .card-feature__image {
+    margin-top: $m-8;
+    margin-left: $m-auto;
+  }
+}
+
+footer {
+  margin-top: $m-6;
+  padding-bottom: $p-2;
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: $dark-blue;
+
+    a {
+      color: hsl(228, 45%, 44%);
+    }
+  }
+}
+

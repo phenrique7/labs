@@ -1,0 +1,75 @@
+@import "margin";
+@import "padding";
+@import "width";
+
+$columns: 12;
+$gutter: $p-6;
+
+@function grid($column) {
+  $width: ($column / $columns * 100);
+  @return $width;
+}
+
+@mixin column($percentage) {
+  flex-grow: 0;
+  flex-basis: #{$percentage + '%'};
+  max-width: #{$percentage + '%'};
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  [class^="column-"] {
+    padding: $p-0 $p-3;
+    margin: $m-3 $m-0;
+  }
+}
+
+@for $it from 1 through $columns {
+  $percentage: grid($it);
+
+  .column-#{$it} {
+    @include column($percentage);
+  }
+}
+
+@for $it from 1 through $columns {
+  $percentage: grid($it);
+
+  @media (min-width: $max-w-screen-sm) {
+    .column-sm-#{$it} {
+      @include column($percentage);
+    }
+  }
+}
+
+@for $it from 1 through $columns {
+  $percentage: grid($it);
+
+  @media (min-width: $max-w-screen-md) {
+    .column-md-#{$it} {
+      @include column($percentage);
+    }
+  }
+}
+
+@for $it from 1 through $columns {
+  $percentage: grid($it);
+
+  @media (min-width: $max-w-screen-lg) {
+    .column-lg-#{$it} {
+      @include column($percentage);
+    }
+  }
+}
+
+@for $it from 1 through $columns {
+  $percentage: grid($it);
+
+  @media (min-width: $max-w-screen-xl) {
+    .column-xl-#{$it} {
+      @include column($percentage);
+    }
+  }
+}

@@ -5,12 +5,11 @@
     <title>Tudo sobre Google Glass</title>
     <link rel="stylesheet" href="./_css/estilo.css" />
     <link rel="stylesheet" href="./_css/form.css" />
-    <script language="JavaScript" src="./_javascript/funcoes.js"></script>
+    <script src="./_javascript/funcoes.js"></script>
     <script>
       function calc_total() {
-        var qtd = parseInt(document.getElementById("cQtd").value);
-        tot = qtd * 1500;
-        document.getElementById("cTot").value = tot;
+        const qtd = parseInt(document.getElementById("cQtd").value);
+        document.getElementById("cTot").value = qtd * 1500;
       }
     </script>
   </head>
@@ -23,11 +22,11 @@
           <h2>A revolução do Google está chegando</h2>
         </hgroup>
 
-        <img id="icone" src="./_imagens/contato.png" />
+        <img id="icone" src="./_imagens/contato.png" alt="Contato" />
 
         <nav id="menu">
           <h1>Menu Principal</h1>
-          <ul type="circle">
+          <ul>
             <li
               onmouseover="alteraFoto('./_imagens/home.png')"
               onmouseout="alteraFoto('./_imagens/contato.png')"

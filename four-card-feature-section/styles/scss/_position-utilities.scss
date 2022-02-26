@@ -1,0 +1,109 @@
+$t-0: 0;
+$t-1: 0.25rem;
+$t-2: 0.5rem;
+$t-3: 0.75rem;
+$t-4: 1rem;
+$t-5: 1.25rem;
+$t-6: 1.5rem;
+$t-8: 2rem;
+$t-10: 2.5rem;
+$t-12: 3rem;
+$t-16: 4rem;
+$t-20: 5rem;
+$t-24: 6rem;
+$t-32: 8rem;
+$t-40: 10rem;
+$t-48: 12rem;
+$t-56: 14rem;
+$t-64: 16rem;
+
+$r-0: 0;
+$r-1: 0.25rem;
+$r-2: 0.5rem;
+$r-3: 0.75rem;
+$r-4: 1rem;
+$r-5: 1.25rem;
+$r-6: 1.5rem;
+$r-8: 2rem;
+$r-10: 2.5rem;
+$r-12: 3rem;
+$r-16: 4rem;
+$r-20: 5rem;
+$r-24: 6rem;
+$r-32: 8rem;
+$r-40: 10rem;
+$r-48: 12rem;
+$r-56: 14rem;
+$r-64: 16rem;
+
+$b-0: 0;
+$b-1: 0.25rem;
+$b-2: 0.5rem;
+$b-3: 0.75rem;
+$b-4: 1rem;
+$b-5: 1.25rem;
+$b-6: 1.5rem;
+$b-8: 2rem;
+$b-10: 2.5rem;
+$b-12: 3rem;
+$b-16: 4rem;
+$b-20: 5rem;
+$b-24: 6rem;
+$b-32: 8rem;
+$b-40: 10rem;
+$b-48: 12rem;
+$b-56: 14rem;
+$b-64: 16rem;
+
+$l-0: 0;
+$l-1: 0.25rem;
+$l-2: 0.5rem;
+$l-3: 0.75rem;
+$l-4: 1rem;
+$l-5: 1.25rem;
+$l-6: 1.5rem;
+$l-8: 2rem;
+$l-10: 2.5rem;
+$l-12: 3rem;
+$l-16: 4rem;
+$l-20: 5rem;
+$l-24: 6rem;
+$l-32: 8rem;
+$l-40: 10rem;
+$l-48: 12rem;
+$l-56: 14rem;
+$l-64: 16rem;
+
+@mixin inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@mixin inset-y-0 {
+  top: 0;
+  bottom: 0;
+}
+
+@mixin inset-x-0 {
+  right: 0;
+  left: 0;
+}
+
+@mixin inset-auto {
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+}
+
+@mixin inset-y-auto {
+  top: auto;
+  bottom: auto;
+}
+
+@mixin inset-x-auto {
+  left: auto;
+  right: auto;
+}

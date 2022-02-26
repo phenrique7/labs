@@ -6,13 +6,13 @@
   <meta name="description" content="Le Scone - Restaurante">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|PT+Mono" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
   <main class="container intro">
     <div class="row">
       <div class="grid-5">
-        <img class="logo" src="assets/img/lescone.png" alt="Le Scone">
+        <img class="logo" src="img/lescone.png" alt="Le Scone">
         <div class="info-intro">
           <p>
             De Seg. à Sab. <span class="open"></span>
@@ -30,7 +30,7 @@
         </p>
       </div>
       <div class="grid-7">
-        <img class="photo-intro" src="assets/img/foto.png" alt="Le Scone Photo" />
+        <img class="photo-intro" src="img/foto.png" alt="Le Scone Photo" />
       </div>
     </div>
   </main>
@@ -51,7 +51,7 @@
               </ul>
             </div>
             <div class="grid-6">
-              <img src="assets/img/prato-1.png" alt="Le Scone Plate 1">
+              <img src="img/prato-1.png" alt="Le Scone Plate 1">
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@
               </ul>
             </div>
             <div class="grid-6">
-              <img src="assets/img/prato-2.png" alt="Le Scone Plate 2">
+              <img src="img/prato-2.png" alt="Le Scone Plate 2">
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@
           <p>+55 021 2412-3333 ////</p>
         </div>
         <a href="https://www.google.com/maps" class="contact-map" target="_blank">
-          <img src="assets/img/map.png" alt="How to get to Le Scone">
+          <img src="img/map.png" alt="How to get to Le Scone">
         </a>
       </div>
     </div>
@@ -114,27 +114,12 @@
         </div>
         <div class="grid-2">
           <a href="#">
-            <img src="assets/img/lescone-icone.png" alt="Le Scone Icon">
+            <img src="img/lescone-icone.png" alt="Le Scone Icon">
           </a>
         </div>
       </div>
     </div>
   </footer>
-  <script>
-
-    var today = new Date();
-    var year = today.getFullYear();
-
-    document.querySelector('.current-year').innerHTML = year;
-
-    document
-      .getElementById('lescone-form')
-      .addEventListener('submit', function (event) {
-        event.preventDefault();
-
-        alert("This form doesn't work. It's just for presentation.");
-      });
-
-  </script>
+  <script type="module" src="js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,209 @@
+$p-0: 0;
+$p-1: 0.25rem;
+$p-2: 0.5rem;
+$p-3: 0.75rem;
+$p-4: 1rem;
+$p-5: 1.25rem;
+$p-6: 1.5rem;
+$p-8: 2rem;
+$p-10: 2.5rem;
+$p-12: 3rem;
+$p-16: 4rem;
+$p-20: 5rem;
+$p-24: 6rem;
+$p-32: 8rem;
+$p-40: 10rem;
+$p-48: 12rem;
+$p-56: 14rem;
+$p-64: 16rem;
+$p-px: 1px;
+
+@mixin px-0 {
+  padding-left: $p-0;
+  padding-right: $p-0;
+}
+
+@mixin px-1 {
+  padding-left: $p-1;
+  padding-right: $p-1;
+}
+
+@mixin px-2 {
+  padding-left: $p-2;
+  padding-right: $p-2;
+}
+
+@mixin px-3 {
+  padding-left: $p-3;
+  padding-right: $p-3;
+}
+
+@mixin px-4 {
+  padding-left: $p-4;
+  padding-right: $p-4;
+}
+
+@mixin px-5 {
+  padding-left: $p-5;
+  padding-right: $p-5;
+}
+
+@mixin px-6 {
+  padding-left: $p-6;
+  padding-right: $p-6;
+}
+
+@mixin px-8 {
+  padding-left: $p-8;
+  padding-right: $p-8;
+}
+
+@mixin px-10 {
+  padding-left: $p-10;
+  padding-right: $p-10;
+}
+
+@mixin px-12 {
+  padding-left: $p-12;
+  padding-right: $p-12;
+}
+
+@mixin px-16 {
+  padding-left: $p-16;
+  padding-right: $p-16;
+}
+
+@mixin px-20 {
+  padding-left: $p-20;
+  padding-right: $p-20;
+}
+
+@mixin px-24 {
+  padding-left: $p-24;
+  padding-right: $p-24;
+}
+
+@mixin px-32 {
+  padding-left: $p-32;
+  padding-right: $p-32;
+}
+
+@mixin px-40 {
+  padding-left: $p-40;
+  padding-right: $p-40;
+}
+
+@mixin px-48 {
+  padding-left: $p-48;
+  padding-right: $p-48;
+}
+
+@mixin px-56 {
+  padding-left: $p-56;
+  padding-right: $p-56;
+}
+
+@mixin px-64 {
+  padding-left: $p-64;
+  padding-right: $p-64;
+}
+
+@mixin px-px {
+  padding-left: $p-px;
+  padding-right: $p-px;
+}
+
+@mixin py-0 {
+  padding-top: $p-0;
+  padding-bottom: $p-0;
+}
+
+@mixin py-1 {
+  padding-top: $p-1;
+  padding-bottom: $p-1;
+}
+
+@mixin py-2 {
+  padding-top: $p-2;
+  padding-bottom: $p-2;
+}
+
+@mixin py-3 {
+  padding-top: $p-3;
+  padding-bottom: $p-3;
+}
+
+@mixin py-4 {
+  padding-top: $p-4;
+  padding-bottom: $p-4;
+}
+
+@mixin py-5 {
+  padding-top: $p-5;
+  padding-bottom: $p-5;
+}
+
+@mixin py-6 {
+  padding-top: $p-6;
+  padding-bottom: $p-6;
+}
+
+@mixin py-8 {
+  padding-top: $p-8;
+  padding-bottom: $p-8;
+}
+
+@mixin py-10 {
+  padding-top: $p-10;
+  padding-bottom: $p-10;
+}
+
+@mixin py-12 {
+  padding-top: $p-12;
+  padding-bottom: $p-12;
+}
+
+@mixin py-16 {
+  padding-top: $p-16;
+  padding-bottom: $p-16;
+}
+
+@mixin py-20 {
+  padding-top: $p-20;
+  padding-bottom: $p-20;
+}
+
+@mixin py-24 {
+  padding-top: $p-24;
+  padding-bottom: $p-24;
+}
+
+@mixin py-32 {
+  padding-top: $p-32;
+  padding-bottom: $p-32;
+}
+
+@mixin py-40 {
+  padding-top: $p-40;
+  padding-bottom: $p-40;
+}
+
+@mixin py-48 {
+  padding-top: $p-48;
+  padding-bottom: $p-48;
+}
+
+@mixin py-56 {
+  padding-top: $p-56;
+  padding-bottom: $p-56;
+}
+
+@mixin py-64 {
+  padding-top: $p-64;
+  padding-bottom: $p-64;
+}
+
+@mixin py-px {
+  padding-top: $p-px;
+  padding-bottom: $p-px;
+}
